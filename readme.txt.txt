@@ -1,0 +1,3 @@
+In data mining and machine learning, the Apriori algorithm is a popular approach for frequent itemset mining. A bottom-up method that gradually raises the amount of candidate itemsets is used to locate all frequent itemsets in a given dataset. An insight that any subset of a frequent itemset must also be frequent serves as the foundation for the procedure.
+
+The production of candidate itemsets and the trimming of infrequent itemsets are the two primary processes in the implementation of the Apriori algorithm. Based on the frequent itemsets of size k-1, the algorithm creates a list of candidate itemsets of size k in the first step. The dataset is then counted to discover which of these candidate itemsets are frequent and which are rare.
